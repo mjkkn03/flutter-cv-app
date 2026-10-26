@@ -1,17 +1,36 @@
-# p1
+﻿# Flutter CV App
 
-A new Flutter project.
+A personal CV / portfolio screen built with Flutter, practicing UI layout and state management from a design mockup.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+![Home screen](screenshots/home.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Features
+
+- Dark theme generated from a seed color (Material 3)
+- Custom typography with Google Fonts (Lato)
+- Profile header with avatar, title and location
+- Interactive skills section: tap a skill to highlight it with a glow effect
+- Layout built with Row, Column, Expanded and Wrap
+
+## Tech Stack
+
+- Flutter / Dart
+- google_fonts
+- Cupertino icons
+
+## Run Locally
+
+```bash
+git clone https://github.com/mjkkn03/flutter-cv-app.git
+cd flutter-cv-app
+flutter pub get
+flutter run -d chrome
+```
+
+## Note
+
+This is a practice project: the UI is implemented from a course design mockup to learn Flutter widgets and layout.
